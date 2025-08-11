@@ -2,6 +2,7 @@
 
 <img width="836" height="1350" alt="image" src="https://github.com/user-attachments/assets/fc928ea8-1fe8-4783-b60c-9e39f9c46857" />
 
+---
 
 # ✅ PHASE 1: SETUP & DATA UNDERSTANDING
 
@@ -15,6 +16,8 @@
   ```
   df = pd.read_csv("Life Expectancy Data.csv")
   ```
+
+---
 
 # ✅ PHASE 2: EXPLORATION & CLEANING
 ### 3. Initial Data Exploration
@@ -40,6 +43,7 @@ For categorical: mode or forward fill
 Optionally, drop columns with too many nulls.
 
 ```
+---
 
 # ✅ PHASE 3: EDA (Exploratory Data Analysis)
 
@@ -65,6 +69,7 @@ Groupby plots: e.g. df.groupby('Status')['BMI'].mean()
 
 Pairplots or scatterplots for important variables.
 ```
+---
 
 # ✅ PHASE 4: FEATURE ENGINEERING & ENCODING
 
@@ -84,6 +89,7 @@ Use .corr() to find most related features to life expectancy.
 
 Drop highly correlated redundant features.
 ```
+---
 
 # ✅ PHASE 5: MODEL PREP & SPLITTING
 
@@ -110,6 +116,8 @@ X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled = scaler.transform(X_test)
 ```
 
+---
+
 # ✅ PHASE 6: MODELING & TUNING
 
 ### 12. Model Development
@@ -133,6 +141,7 @@ from sklearn.model_selection import GridSearchCV, RandomizedSearchCV
 
 Tuning n_estimators, max_depth, learning_rate for XGBoost or RandomForest.
 ```
+---
 
 # ✅ PHASE 7: MODEL EVALUATION
 
@@ -153,6 +162,7 @@ R²: r2_score(y_test, y_pred)
 X-axis: Model names
 Y-axis: RMSE, MAE, R²
 ```
+---
 
 # ✅ PHASE 8: COMPARATIVE ANALYSIS
 
@@ -170,6 +180,7 @@ Run same models on each and compare:
   - Top predictors for each group
 
 ```
+---
 
 # ✅ PHASE 9: FINAL VISUALIZATIONS & REPORT
 
@@ -181,8 +192,5 @@ Run same models on each and compare:
 4. Correlation heatmaps
 5. Any impactful insights
 ```
-
-
-Visuals
-
-Key insights (esp. Developed vs Developing)
+---
+# ✅ PHASE 10: Research Paper
